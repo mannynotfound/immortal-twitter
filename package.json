@@ -1,0 +1,31 @@
+{
+  "name": "immortal-twitter",
+  "version": "1.0.0",
+  "description": "Twitter stream that never dies.",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "babel --loose all ./src/ -d ./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mannynotfound/immortal-stream.git"
+  },
+  "author": "manny404",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mannynotfound/immortal-stream/issues"
+  },
+  "homepage": "https://github.com/mannynotfound/immortal-stream#readme",
+  "dependencies": {
+    "twitter": "^1.2.5"
+  },
+  "babel": {
+    "presets": [
+      "nodejs-lts"
+    ]
+  },
+  "devDependencies": {
+    "babel-preset-nodejs-lts": "^1.2.1",
+    "babel-cli": "^6.5.1"
+  }
+}
